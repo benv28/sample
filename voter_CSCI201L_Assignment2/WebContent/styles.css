@@ -1,0 +1,64 @@
+@charset "UTF-8";
+html, body {
+	margin:0;
+	padding:0;
+}
+div.top {
+	padding: 0;
+	margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: auto;
+    background-color: #333;
+
+}
+li {
+	display: inline;
+	font-size: 28px;
+	font-family: "American Typewriter";
+}
+li.He {
+
+
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+li a {
+
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+	padding: 24px 26px;
+    text-decoration: none;
+}
+
+.outer {
+}
+.left {
+ 	display: inline-block;
+	border: 2px solid;
+	margin: 10% 0px 0px 10%;
+	width: 30%;
+	padding: 0px;
+	text-align: left;	
+}
+.right {
+	display: inline-block;
+	float: right;
+	margin: 10% 0px 0px 10%;
+	width: 30%;
+}
+
+
+
+
+
